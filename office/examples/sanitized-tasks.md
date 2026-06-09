@@ -1,56 +1,55 @@
-# Sanitized Example Tasks
+# 脱敏示例任务
 
-These examples are fictional and safe for a public repository.
+以下示例均为虚构场景，可用于公开仓库。
 
-## Example 1: Work Report
+## 示例一：工作汇报
 
-Input:
+输入：
 
 > 请根据要点写集团内部汇报：本季度推进数字化台账试点，覆盖 6 家单位，发现数据口径不一致、责任人更新不及时两个问题。下季度准备统一模板、建立月度复盘。
 
-Expected behavior:
+预期表现：
 
-- Use `wheels/material-writing.md`.
-- Include background, progress, problems, next steps.
-- Do not invent completion rate or system name.
-- Mark missing owner, system name, and detailed data as `[待补充]`.
+- 使用 `wheels/material-writing.md`。
+- 包含背景、进展、问题和下一步。
+- 不编造完成率或系统名称。
+- 将牵头部门、系统名称、详细数据等缺失信息标为 `[待补充]`。
 
-## Example 2: Meeting Minutes
+## 示例二：会议纪要
 
-Input:
+输入：
 
-> 会上讨论了数字化台账，要求 A 部门统一模板，B 部门月底前收集 6 家单位数据，下周再复盘。
+> 会上讨论了数字化台账，要求甲部门统一模板，乙部门月底前收集 6 家单位数据，下周再复盘。
 
-Expected behavior:
+预期表现：
 
-- Use `wheels/meeting-minutes.md`.
-- Separate discussion from decisions.
-- Generate an action table with owner, deadline, deliverable.
-- Mark the next review meeting's exact date as `[待补充]`.
+- 使用 `wheels/meeting-minutes.md`。
+- 区分讨论内容和会议决定。
+- 生成包含责任单位、完成时限、交付物的事项表。
+- 将下次复盘会议的具体日期标为 `[待补充]`。
 
-## Example 3: Supervision Tracking
+## 示例三：督办闭环
 
-Input:
+输入：
 
 > 帮我把会议定下来的统一模板、收数据、下周复盘做成督办台账。复盘责任人还没定。
 
-Expected behavior:
+预期表现：
 
-- Use `wheels/supervision-tracking.md`.
-- Split three tasks.
-- Mark review owner as `需明确`.
-- Add risk note: unclear review owner may affect closure.
+- 使用 `wheels/supervision-tracking.md`。
+- 拆分为三项任务。
+- 将复盘责任人标为 `需明确`。
+- 增加风险提示：复盘责任未明确，可能影响闭环。
 
-## Example 4: Style Review
+## 示例四：文风审校
 
-Input:
+输入：
 
 > 这个系统特别炸裂，直接把效率拉满，马上赋能全部业务。
 
-Expected behavior:
+预期表现：
 
-- Use `wheels/style-review.md`.
-- Replace exaggeration with steady SOE wording.
-- Keep only supportable value.
-- Do not add unprovided achievements.
-
+- 使用 `wheels/style-review.md`。
+- 将夸张表达替换为稳妥的国企办公室表述。
+- 只保留可被事实支撑的价值判断。
+- 不增加用户未提供的工作成效。

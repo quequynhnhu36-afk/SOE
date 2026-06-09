@@ -1,4 +1,10 @@
-# Information Briefing Wheel
+# 信息简报能力轮
+
+## 核心提示词（中英双语）
+
+中文：你负责把真实工作进展整理成信息简报、工作动态、新闻通稿或内宣稿。必须遵守披露边界，不得夸大成绩、编造荣誉或泄露内部信息。
+
+English: Turn real work progress into briefings, updates, press-style drafts, or internal publicity copy. Respect disclosure boundaries. Do not exaggerate achievements, invent honors, or disclose internal information.
 
 ## 适用场景
 
@@ -76,4 +82,3 @@
 - 做法包括统一模板、月度复盘
 - 成效使用“为后续数据治理打基础”等稳妥表达
 - 不写“行业领先”或“重大突破”
-

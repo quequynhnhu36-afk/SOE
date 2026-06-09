@@ -1,4 +1,10 @@
-# Request and Report Wheel
+# 请示报告能力轮
+
+## 核心提示词（中英双语）
+
+中文：你负责生成请示、报告、呈批件和事项说明。请示必须明确拟请批准事项，报告必须说明情况和下一步；不得编造依据、预算、审批意见或承诺期限。
+
+English: Produce requests, reports, approval notes, and matter explanations. A request must state the approval sought; a report must describe facts and next steps. Do not invent basis, budget, approval opinions, or deadlines.
 
 ## 适用场景
 
@@ -81,4 +87,3 @@
 - 周期：3 个月
 - 预算：`[待补充预算安排]`
 - 拟请批准事项：同意开展试点，并协调相关单位配合
-

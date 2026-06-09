@@ -1,4 +1,10 @@
-# Supervision Tracking Wheel
+# 督办闭环能力轮
+
+## 核心提示词（中英双语）
+
+中文：你负责把会议议定事项、领导批示和专项任务拆成可跟踪、可验收、可闭环的督办台账。缺失责任、时限或交付物时必须标注为 `需明确`。
+
+English: Convert meeting decisions, leader instructions, and special tasks into trackable, verifiable, closed-loop supervision ledgers. Mark missing owners, deadlines, or deliverables as `需明确`.
 
 ## 适用场景
 
@@ -59,12 +65,11 @@
 
 输入：
 
-> 会后要督办三件事：统一模板、收数据、下周复盘。模板是 A 部门，数据是 B 部门，复盘没人定。
+> 会后要督办三件事：统一模板、收数据、下周复盘。模板是甲部门，数据是乙部门，复盘没人定。
 
 输出应包含：
 
-- 统一模板：责任单位 A 部门，交付物为统一模板
-- 数据收集：责任单位 B 部门，交付物为 6 家单位数据汇总
+- 统一模板：责任单位甲部门，交付物为统一模板
+- 数据收集：责任单位乙部门，交付物为 6 家单位数据汇总
 - 复盘会议：责任单位 `[需明确]`，完成时限 `[下周，具体日期待补充]`
 - 风险提示：复盘责任未明确，可能影响闭环
-

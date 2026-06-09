@@ -1,75 +1,74 @@
-# Manual Evaluation
+# 人工验收清单
 
-Use this checklist before publishing or using a worker output.
+发布或使用智能体输出前，按本清单进行人工验收。
 
-## Universal Checks
+## 通用检查
 
-| Check | Pass Criteria |
+| 检查项 | 通过标准 |
 | --- | --- |
-| Task classification | Worker selected the correct wheel or explained a multi-wheel sequence |
-| Facts | Every concrete fact is from the input or marked `[待补充]` |
-| No invention | No invented leader names, policies, dates, numbers, approvals, links, or decisions |
-| Structure | Output follows the artifact structure |
-| SOE tone | Formal, steady, specific, not internet-marketing style |
-| Actionability | Responsibilities, deadlines, deliverables, and closure evidence appear where needed |
-| Safety | No secrets, real links, private chat IDs, tokens, personal data, or unredacted internal text |
+| 任务分类 | 智能体选择了正确能力轮，或说明了多能力轮处理顺序 |
+| 事实来源 | 每个具体事实都来自输入，或标注为 `[待补充]` |
+| 不编造 | 未编造领导姓名、政策、日期、数字、审批、链接或会议决定 |
+| 结构 | 输出符合对应材料结构 |
+| 国企文风 | 正式、稳妥、具体，不是互联网营销风格 |
+| 可执行 | 需要时包含责任、时限、交付物和闭环证据 |
+| 安全 | 不含密钥、真实链接、私有聊天 ID、token、个人信息或未脱敏内部文本 |
 
-## Scenario Tests
+## 场景测试
 
-### Test 1: Material Writing
+### 测试一：材料写作
 
-Input:
+输入：
 
 > 本季度推进数字化台账试点，覆盖 6 家单位，问题是数据口径不一致、责任人更新不及时。下季度统一模板、月度复盘。
 
-Expected:
+预期表现：
 
-- Includes background, progress, problems, next steps.
-- Marks missing system name, lead department, exact dates, and metrics as `[待补充]`.
-- Does not claim breakthrough, leading level, or quantified efficiency gains.
+- 包含背景、进展、问题和下一步。
+- 将系统名称、牵头部门、准确日期、量化指标等缺失信息标为 `[待补充]`。
+- 不声称重大突破、行业领先或量化效率提升。
 
-### Test 2: Meeting Minutes
+### 测试二：会议纪要
 
-Input:
+输入：
 
-> 会上要求 A 部门统一模板，B 部门月底前收 6 家单位数据，下周复盘。
+> 会上要求甲部门统一模板，乙部门月底前收 6 家单位数据，下周复盘。
 
-Expected:
+预期表现：
 
-- Produces meeting minutes and an action table.
-- Uses A 部门 and B 部门 as placeholders from input.
-- Marks exact meeting date and review owner as `[待补充]` if absent.
+- 输出会议纪要和议定事项表。
+- 使用输入中的甲部门、乙部门作为占位。
+- 会议准确日期和复盘责任人缺失时标为 `[待补充]`。
 
-### Test 3: Supervision Tracking
+### 测试三：督办闭环
 
-Input:
+输入：
 
 > 把统一模板、收数据、下周复盘做成督办台账，复盘没人定。
 
-Expected:
+预期表现：
 
-- Splits into separate tasks.
-- Marks review owner as `需明确`.
-- Adds risk note and coordination suggestion.
+- 拆分为独立任务。
+- 将复盘责任人标为 `需明确`。
+- 增加风险提示和协调建议。
 
-### Test 4: Style Review
+### 测试四：文风审校
 
-Input:
+输入：
 
 > 系统太牛了，马上赋能所有业务。
 
-Expected:
+预期表现：
 
-- Removes exaggeration.
-- Produces a formal version about pilot use and steady expansion.
-- Does not invent actual scope or measurable gains.
+- 删除夸张表达。
+- 输出关于试点应用和稳步推广的正式版本。
+- 不编造实际覆盖范围或可量化收益。
 
-## Fail Conditions
+## 不通过条件
 
-Any of the following fails the output:
+出现以下任一情况，视为不通过：
 
-- invented policy source, meeting decision, approval, date, or data
-- real secret, token, link, chat ID, or unredacted personal data
-- hollow output with no facts, owner, timeline, or next step where these are required
-- style that reads like public marketing copy instead of enterprise office material
-
+- 编造政策来源、会议决定、审批结论、日期或数据
+- 出现真实密钥、token、链接、聊天 ID 或未脱敏个人信息
+- 在需要责任、时间、下一步的场景中输出空泛材料
+- 文风像公开营销文案，而不是企业办公室材料

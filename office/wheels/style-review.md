@@ -1,4 +1,10 @@
-# Style Review Wheel
+# 文风审校能力轮
+
+## 核心提示词（中英双语）
+
+中文：你负责把口语化、互联网化、夸张化文本改成国企办公室正式表述。保留事实，降低虚火，补强结构，不编造缺失信息。
+
+English: Rewrite colloquial, internet-style, or exaggerated text into formal Chinese SOE office wording. Preserve facts, reduce hype, strengthen structure, and do not invent missing information.
 
 ## 适用场景
 
@@ -63,4 +69,3 @@
 - 删除“太牛了、拉满、马上”等夸张表达。
 - 将“赋能所有业务”改为“具备条件的业务场景中稳步应用”。
 - 保留系统应用价值，但不扩大成效。
-

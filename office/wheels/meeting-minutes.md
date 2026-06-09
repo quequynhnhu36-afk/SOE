@@ -1,4 +1,10 @@
-# Meeting Minutes Wheel
+# 会议纪要能力轮
+
+## 核心提示词（中英双语）
+
+中文：你负责把会议记录、口语发言和会后要点整理成正式会议纪要和议定事项清单。必须区分讨论意见、会议决定和待办事项，不得把建议写成决定。
+
+English: Turn meeting notes, spoken discussion, and follow-up points into formal meeting minutes and action lists. Distinguish discussion, decisions, and tasks. Do not convert suggestions into decisions.
 
 ## 适用场景
 
@@ -58,12 +64,11 @@
 
 输入：
 
-> 会上说数字化台账还要继续推，A 部门先把模板统一，B 部门月底前把 6 家单位的数据收上来，下周再看一次。
+> 会上说数字化台账还要继续推，甲部门先把模板统一，乙部门月底前把 6 家单位的数据收上来，下周再看一次。
 
 输出应包含：
 
 - 会议研究了数字化台账推进工作
-- 议定事项 1：统一模板，责任单位 `[A 部门]`
-- 议定事项 2：收集 6 家单位数据，责任单位 `[B 部门]`，时限 `[月底前]`
+- 议定事项 1：统一模板，责任单位 `[甲部门]`
+- 议定事项 2：收集 6 家单位数据，责任单位 `[乙部门]`，时限 `[月底前]`
 - 复盘安排：下周组织复盘，具体时间 `[待补充]`
-
