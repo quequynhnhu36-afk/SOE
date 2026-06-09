@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.token
+secrets/
+private/
+tmp/
+dist/
+build/
+
